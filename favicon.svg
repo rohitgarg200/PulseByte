@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="PulseByte Daily icon">
+  <rect width="128" height="128" rx="24" fill="#14213d" />
+  <circle cx="40" cy="64" r="14" fill="#ff7f11" />
+  <path d="M56 64h12l6-16 8 32 8-16h14" fill="none" stroke="#dafbe4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

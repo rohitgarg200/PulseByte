@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>PulseByte Daily</title>
+    <link>https://YOUR_GITHUB_USERNAME.github.io/pulsebyte-daily/</link>
+    <description>Simple daily tech articles with social impact.</description>
+    <language>en-us</language>
+    <item>
+      <title>How AI Health Tools Can Help Rural Clinics</title>
+      <link>https://YOUR_GITHUB_USERNAME.github.io/pulsebyte-daily/post.html?slug=ai-health-tools-rural-clinics</link>
+      <description>AI screening tools are helping clinics detect health risks earlier with simple devices.</description>
+      <pubDate>Sat, 21 Feb 2026 08:00:00 GMT</pubDate>
+      <guid>ai-health-tools-rural-clinics</guid>
+    </item>
+    <item>
+      <title>Low-Cost Drones for Disaster Relief: What Changed This Week</title>
+      <link>https://YOUR_GITHUB_USERNAME.github.io/pulsebyte-daily/post.html?slug=drones-disaster-relief-weekly-update</link>
+      <description>Drone mapping updates are improving response speed and rescue planning during disasters.</description>
+      <pubDate>Sat, 21 Feb 2026 08:30:00 GMT</pubDate>
+      <guid>drones-disaster-relief-weekly-update</guid>
+    </item>
+  </channel>
+</rss>
