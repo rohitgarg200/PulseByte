@@ -1,10 +1,19 @@
 const articlesEl = document.getElementById("articles");
+const loadMoreBtn = document.getElementById("loadMoreBtn");
+const countEl = document.getElementById("postCount");
 
-if (articlesEl && Array.isArray(POSTS)) {
-  POSTS.forEach((post, index) => {
+const PAGE_SIZE = 12;
+let renderedCount = 0;
+
+const renderBatch = () => {
+  if (!articlesEl || !Array.isArray(POSTS)) return;
+
+  const next = POSTS.slice(renderedCount, renderedCount + PAGE_SIZE);
+
+  next.forEach((post, index) => {
     const card = document.createElement("article");
     card.className = "card";
-    card.style.animationDelay = `${index * 130}ms`;
+    card.style.animationDelay = `${index * 90}ms`;
 
     card.innerHTML = `
       <p class="meta">${post.category} • ${post.date} • ${post.readTime}</p>
@@ -15,4 +24,20 @@ if (articlesEl && Array.isArray(POSTS)) {
 
     articlesEl.appendChild(card);
   });
+
+  renderedCount += next.length;
+
+  if (countEl) {
+    countEl.textContent = `Showing ${renderedCount} of ${POSTS.length} articles`;
+  }
+
+  if (loadMoreBtn) {
+    loadMoreBtn.hidden = renderedCount >= POSTS.length;
+  }
+};
+
+renderBatch();
+
+if (loadMoreBtn) {
+  loadMoreBtn.addEventListener("click", renderBatch);
 }

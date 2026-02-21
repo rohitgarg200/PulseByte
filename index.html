@@ -15,7 +15,7 @@
       property="og:description"
       content="Two high-quality tech stories every day in simple language, focused on people and communities."
     />
-    <meta property="og:url" content="https://rohitgarg.github.io/pulsebyte-daily/" />
+    <meta property="og:url" content="https://rohitgarg200.github.io/PulseByte/" />
     <meta property="og:site_name" content="PulseByte Daily" />
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:title" content="PulseByte Daily | Tech Made Simple" />
@@ -23,9 +23,9 @@
       property="twitter:description"
       content="Daily tech updates made clear, practical, and socially useful."
     />
-    <link rel="canonical" href="https://rohitgarg.github.io/pulsebyte-daily/" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="alternate" type="application/rss+xml" title="PulseByte Daily RSS" href="/feed.xml" />
+    <link rel="canonical" href="https://rohitgarg200.github.io/PulseByte/" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="alternate" type="application/rss+xml" title="PulseByte Daily RSS" href="feed.xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -38,7 +38,7 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "PulseByte Daily",
-        "url": "https://rohitgarg.github.io/pulsebyte-daily/",
+        "url": "https://rohitgarg200.github.io/PulseByte/",
         "description": "Simple daily tech articles with social impact."
       }
     </script>
@@ -51,10 +51,10 @@
       <p class="tag">100% Free Tech Blog</p>
       <h1>PulseByte Daily</h1>
       <p class="subtitle">
-        Two high-quality tech stories every day, written in simple language and focused on how people and communities benefit.
+        100 actionable tech blogs written in simple language. Each post highlights real social impact so anyone can understand why it matters.
       </p>
       <div class="hero-cta-row">
-        <a class="cta" href="#today">Read Today’s Articles</a>
+        <a class="cta" href="#today">Read Trending Stories</a>
         <a class="cta cta-alt" href="post.html">Open Latest Story</a>
       </div>
     </header>
@@ -62,10 +62,14 @@
     <main>
       <section class="section" id="today">
         <div class="section-head">
-          <h2>Today’s Articles</h2>
-          <p>Clear, practical, and useful for everyone.</p>
+          <h2>Top Tech Stories</h2>
+          <p>Built with popular blog formats: explainers, case studies, playbooks, and myth-vs-reality posts.</p>
+          <p class="count" id="postCount"></p>
         </div>
         <div class="articles" id="articles"></div>
+        <div class="controls">
+          <button id="loadMoreBtn" class="cta" type="button">Load More Articles</button>
+        </div>
       </section>
 
       <section class="section value">
