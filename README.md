@@ -24,7 +24,7 @@ Catchy, simple, and 100% free tech blog starter.
 - `.github/workflows/deploy-pages.yml`: GitHub Pages deploy pipeline
 
 ## Important before going live
-Replace `YOUR_GITHUB_USERNAME` in these files:
+Replace `rohitgarg` in these files:
 - `index.html`
 - `post.html`
 - `post.js`
@@ -50,7 +50,7 @@ Then open `http://localhost:8080`.
 4. Under "Build and deployment", choose `GitHub Actions`.
 5. Push any new commit to `main`.
 6. Your site will be live at:
-   `https://YOUR_GITHUB_USERNAME.github.io/pulsebyte-daily/`
+   `https://rohitgarg.github.io/pulsebyte-daily/`
 
 ## Daily publishing process (free)
 1. Add 2 new articles daily by appending objects in `posts-data.js`.

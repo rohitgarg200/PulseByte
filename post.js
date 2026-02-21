@@ -1,7 +1,7 @@
 const root = document.getElementById("articleRoot");
 const params = new URLSearchParams(window.location.search);
 const slug = params.get("slug");
-const siteUrl = "https://YOUR_GITHUB_USERNAME.github.io/pulsebyte-daily";
+const siteUrl = "https://rohitgarg.github.io/pulsebyte-daily";
 
 const selectedPost = (Array.isArray(POSTS) ? POSTS : []).find((post) => post.slug === slug) || POSTS?.[0];
 
