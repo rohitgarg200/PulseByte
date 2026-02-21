@@ -45,7 +45,7 @@ if (!selectedPost) {
       (section) => `
         <section class="post-section">
           <h2>${section.heading}</h2>
-          <p>${section.content}</p>
+          <p>${section.content.replace(/\n/g, "<br />")}</p>
         </section>
       `
     )
